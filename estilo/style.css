@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Colors*/
+    --color1: #BF5AAE; 
+    --color2: #242040; 
+    --color3: #B5B3F2;
+    --color4: #5C64F2; 
+    --color5: #BBC8F2;
+
+    /*Fonts*/
+    --font-title: 'Lalezar', cursive;
+    --font-standard: 'Poppins', sans-serif;
+}
+
 
 body {
-    background-color: burlywood;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: var(--color3);
+    font-family: var(--font-standard);
+}
+
+header {
+    background-color: var(--color1);
+    
+}
+
+header > h1 {
+    
+    text-align: center;
+    color: white;
+}
+
+
+main {
+    background-color: var(--color2);
+    color: white; 
+}
+
+
+
+
+footer {
+    background-color: var(--color1);
+    color: white;
+}
+
+footer > p {
+    text-align: center;
 }
